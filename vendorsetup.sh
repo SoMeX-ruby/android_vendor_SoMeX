@@ -5,6 +5,7 @@ add_lunch_combo SoMeX_toroplus-userdebug
 add_lunch_combo SoMeX_maguro-userdebug
 add_lunch_combo SoMeX_mako-userdebug
 add_lunch_combo SoMeX_manta-userdebug
+add_lunch_combo SoMeX_ruby-userdebug
 add_lunch_combo SoMeX_grouper-user
 add_lunch_combo SoMeX_tilapia-user
 add_lunch_combo SoMeX_toro-user
@@ -12,3 +13,4 @@ add_lunch_combo SoMeX_toroplus-user
 add_lunch_combo SoMeX_maguro-user
 add_lunch_combo SoMeX_mako-user
 add_lunch_combo SoMeX_manta-user
+add_lunch_combo SoMeX_ruby-user
