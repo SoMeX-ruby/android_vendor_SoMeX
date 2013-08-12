@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for a AOSP/SomethingExplosive
 # build for toroplus hardware.
 #
 
@@ -24,14 +24,14 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 $(call inherit-product, vendor/SoMeX/config/cdma.mk)
 
 # Inherit from those products
-$(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
+$(call inherit-product, device/samsung/toroplus/aosp_toroplus.mk)
 
 # Copy over toroplus files
 PRODUCT_COPY_FILES += \
     device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
 
 # toroplus overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.2/JDQ39E/573038:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.2 JDQ39E 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.3 JSS15J 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_toroplus

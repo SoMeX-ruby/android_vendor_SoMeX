@@ -1,9 +1,10 @@
-SomethingExplosive 4.2.2
-========================
+SomethingExplosive 4.3
+======================
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off 4.2.2_r1.2
+* Built straight off the AOSP/SoMeX source, based off 4.3_r2.1
+* Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
 * Patched for both master-key security exploits.
 * Superuser baked-in (koush)
@@ -13,7 +14,7 @@ Features
 * Gesture keyboard support (SoMeX)
 * SMS Security - Limit amount of outgoing SMS messages per 15 min (lithid)
 * PrivacyGuard - Prevent applications from accessing personal data (cyanogen/slimroms)
-* T9 Dialer - Search for contacts from phone dialpad (CM/Danesh)
+* Official T9 Dialer - Search for contacts from phone dialpad (Google)
 * Customized/Cleaned Home screen (SoMeX)
 * Extended Power Menu (DvTonder)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
