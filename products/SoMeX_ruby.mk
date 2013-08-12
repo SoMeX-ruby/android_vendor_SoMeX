@@ -27,7 +27,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 $(call inherit-product, device/htc/ruby/device_ruby.mk)
 
 # mako overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_ruby BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT="tmous/htc_ruby/ruby:4.2.2/JDQ39E/573038:user/release-keys" PRIVATE_BUILD_DESC="htc_ruby-user 4.2.2 JDQ39E 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_ruby BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="tmous/htc_ruby/ruby:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="htc_ruby-user 4.3 JSS15J 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_ruby
